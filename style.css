@@ -1,13 +1,18 @@
 /*Css general de elementos*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
 
 body{
     background-color: #222;
     color: white;
     font: 200 14px 'Poppins', sans-serif;  
 }
-h2{
-    font-size: 36px;
 
+h2 {
+    font-size: 36px;
+    line-height: 36px;
 }
 
 h3{ 
@@ -15,9 +20,11 @@ h3{
     font-size: 18px;
     font-weight: 300;
 }
+
 p{
     text-align: justify;
 }
+
 cite{
     font-weight: 300;
 }
@@ -27,7 +34,17 @@ cite{
 .hastag{
     color: #ffc900;
 }
+
+.seccion{
+    padding: 10px 100px 10px 100px
+}
+
 #experiencia{
     background-color: white;
     color: #222;
 }
+
+#porfolio {
+    border-top: 1px solid #ffc900;
+}
+
