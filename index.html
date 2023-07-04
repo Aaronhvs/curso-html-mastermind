@@ -3,74 +3,225 @@
     <head>
         <meta charset="utf-8">
         <title> Portfolio de Aaron olmedo </title>
-        <link rel="stylesheet" href="./style.css">
-        <!-- Estilo de fuentes -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/55050261af.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css">
+        <!-- Estilo de fuentes -->
+        
     </head>
 
     <body>
+         <!-- menu de navegacion -->
+        <nav>
+            <ul>
+                <li><a href="#sobremi"> Sobre mi</a></li>
+                <li><a href="#porfolio">Portafolio</a></li>
+                <li id="hola"><img src="/imagenes/cascos.png" alt="cascos"></li>
+                <li> <a href="#experiencia"> Skills </a></li>
+                <li><a href="#contactar">Contactar</a></li>
+            </ul>
+        </nav>
+        <article>
         <!-- inicio del Bloque    -->
-        <div id="Inicio">
-            <h2> Aaron Olmedo </h2>
-            <h3 class="hastag">#Programador</h3>
-            <h3 class="hastag">#Musico </h3>
-        </div>
-        <!-- Fin del Bloque  -->
+            <section id="inicio">
+                <h2> Aaron Olmedo </h2>
+                <h3 class="hastag">#Programador</h3>
+                <h3 class="hastag">#Musico </h3>
+                <ul id="socialmedia">
+                    <li><a href="https://open.spotify.com/user/aaronhvs.spotify" target="_blank"><i class="fa-brands fa-spotify"></i></a></li>
+                    <li><a href="https://twitter.com/aaronhvs?lang=es" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/aaron.olmedo/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </section>
+            <!-- Fin del Bloque  -->
 
-        <!-- Inicio del Bloque sobre mi -->
-        <div id="Sobremi">
-            <h2> Sobre mi </h2>
-            <img src="./imagenes/descarga.jpg" alt="Foto de Aaron olmedo " height="250">
-            <p>¡Hola a todos! Mi nombre es  <strong> Aaron Olmedo </strong>  y soy una persona apasionada tanto por <span>   la música como por la programación. </span> Permítanme contarles un poco sobre mis dos facetas.</p>
-            <p>Como músico, he estado involucrado en el mundo de la música durante varios años. Toco varios instrumentos, como la guitarra, el piano y la batería. Mi amor por la música comenzó desde temprana edad, 
-                y he tenido la oportunidad de participar en diversas bandas y proyectos musicales. Mi estilo musical abarca géneros como el rock, el pop y el jazz. Disfruto explorar diferentes sonidos y ritmos para crear piezas únicas y emocionantes.</p>
-            <p>Además de mi pasión por la música, también tengo un gran interés en la programación. <cite> fascina la forma en que la tecnología puede ser utilizada para resolver problemas y crear soluciones innovadoras. </cite> He adquirido habilidades en varios lenguajes de programación, como HTML, CSS, JavaScript y Python. He desarrollado proyectos web, aplicaciones y automatizaciones que han ampliado mi conocimiento y experiencia en el campo de la programación.</p>
-        </div>
+            <!-- Inicio del Bloque sobre mi -->
+            <section id="sobremi" class=>
+                <div id="imgsobremi"><img src="./imagenes/descarga.jpg" alt="Foto de Aaron olmedo " height="250"> </div>
+                <div id="bodysobremi">
+                    <h2> Sobre mi </h2>
+                    <p>¡Hola a todos! Mi nombre es  <strong> Aaron Olmedo </strong>  y soy una persona apasionada tanto por <span>   la música como por la programación. </span> Permítanme contarles un poco sobre mis dos facetas.</p>
+                    <p>Como músico, he estado involucrado en el mundo de la música durante varios años. Toco varios instrumentos, como la guitarra, el piano y la batería. Mi amor por la música comenzó desde temprana edad, 
+                    y he tenido la oportunidad de participar en diversas bandas y proyectos musicales. Mi estilo musical abarca géneros como el rock, el pop y el jazz. Disfruto explorar diferentes sonidos y ritmos para crear piezas únicas y emocionantes.</p>
+                    <p>Además de mi pasión por la música, también tengo un gran interés en la programación. <cite> fascina la forma en que la tecnología puede ser utilizada para resolver problemas y crear soluciones innovadoras. </cite> He adquirido habilidades en varios lenguajes de programación, como HTML, CSS, JavaScript y Python. He desarrollado proyectos web, aplicaciones y automatizaciones que han ampliado mi conocimiento y experiencia en el campo de la programación.</p>
+                    <div class="masinfo"> <button type="button">MAS INFO </button></div>
+                </div>
+               
+            
+            </section>
 
-        <!-- Fin del Bloque sobre mi  -->
-
-
-        <!-- Inicio de Bloque Porfolio  -->
-        <div id="Porfolio">
-            <h2>Porfolio</h2>
-            <h3>Una mirada mas alla del texto </h3>
-            <table>
-                <tbody>
-                    
-                    <tr>
-                        <td><strong>Edad</strong></td>
-                        <td>24</td>
-                        <td><strong>Cuidad de residencia </strong></td>
-                            <td>Santiago de chile </td>  
-                     </tr>
-                         <tr>
-                            <td><strong>Estudios</strong></td>
-                            <td>Liceo</td>
-                            <td><strong>Especialidad </strong></td>
-                            <td>Ciencias</td> 
-                        </tr>
-                        <tr>
-                            <td><strong>Aficion</strong></td>
-                            <td>Videojuegos</td>
-                            <td><strong>Deporte </strong></td>
-                            <td>Futbol  </td> 
-                             </tr>               
-                </tbody>
-            </table>
-        </div>
-        <!-- Fin del Bloque Porfolio  -->
-
-        
-        <!-- Añadiendo bloque de experiencia -->
-        <div id="experiencia">
-            <h2>Experiencia&Skill</h2>
-            <h3></h3>
-            <p></p>
-        </div>
+            <!-- Fin del Bloque sobre mi  -->
 
 
+            <!-- Inicio de Bloque Porfolio  -->
+            <section id="porfolio">
+                <h2 class="titulo">Porfolio</h2>
+                <h3 class="titulo">Una mirada mas alla del texto </h3>
+                <div class="filaporfolio">
+                        <div class="card">
+                            <video controls width="250px">
+                                <source src="/media/intro_mastermind.mp4" type="video/mp4">
+                            </video>
+                            <h3>Musica</h3>
+                            <h4>Concierto Estadio la Bombon </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <div class="sep"> </div>
+                            <div class="masinfo"> <button type="button">MAS INFO </button></div>
+                        </div>
+
+                        <div class="card">
+                            <iframe width="250px" src="https://www.youtube.com/embed/ZMOwf7hU6fQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <h3>Musica</h3>
+                            <h4>Concierto Estadio Camp nou </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <div class="sep"> </div>
+                            <div class="masinfo"> <button type="button">MAS INFO </button></div>
+                        </div>
+                        <div class="card">
+                            <img src="/imagenes/imagen_portfolio.png" alt="Portafolio 3">
+                            <h3>Musica</h3>
+                            <h4>Concierto Estadio Bicentenario </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <div class="sep"> </div>
+                            <div class="masinfo"> <button type="button">MAS INFO </button></div>
+                        </div>
+
+                        <div class="card">
+                            <img src="/imagenes/imagen_portfolio.png" alt="Portafolio 4">
+                            <h3>Musica</h3>
+                            <h4>Concierto Estadio Alianz  </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <div class="sep"> </div>
+                            <div class="masinfo"> <button type="button">MAS INFO </button></div>
+                        </div>                  
+                </div>
+               
+            </section>
+            <!-- Fin del Bloque Porfolio  -->
+
+            
+            <!-- Añadiendo bloque de experiencia -->
+            <section id="experiencia">
+                <h2 id="tituloexp">Experiencia & Skills </h2>
+                <h3 id="subexp">Un vistazo a mis Experiencias </h3>
+            <div class="gridexp">
+                <div class="cardexp"> 
+                    <h2>Diseño web</h2>
+                    <h3 class="textoalaizquierda"> 2018-2020 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <ul>
+                       <li> <img src="/imagenes/cardexp/tecno_au.png" alt="" height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_cu.png" alt="" height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_html.png" alt="" height="30px"></li>
+                    </ul>
+                </div>
+
+                <div class="cardexp">
+                    <h2>Diseño web</h2>
+                    <h3 class="textoalaizquierda"> 2019-2023 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li> <img src="/imagenes/cardexp/tecno_au.png" alt=""  height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_cu.png" alt="" height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_html.png" alt="" height="30'x"></li>
+
+                    </ul>
+                </div>
+
+                <div class="cardexp">
+                    <h2>Diseño web</h2>
+                    <h3 class="textoalaizquierda"> 2019-2023 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li> <img src="/imagenes/cardexp/tecno_au.png" alt=""  height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_cu.png" alt="" height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_html.png" alt="" height="30'x"></li>
+
+                    </ul>
+                </div>
+                <div class="cardexp">
+                    <h2>Diseño web</h2>
+                    <h3 class="textoalaizquierda"> 2019-2023 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li> <img src="/imagenes/cardexp/tecno_au.png" alt=""  height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_cu.png" alt="" height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_html.png" alt="" height="30'x"></li>
+
+                    </ul>
+                </div>
+                <div class="cardexp">
+                    <h2>Diseño web</h2>
+                    <h3 class="textoalaizquierda"> 2019-2023 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li> <img src="/imagenes/cardexp/tecno_au.png" alt=""  height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_cu.png" alt="" height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_html.png" alt="" height="30'x"></li>
+
+                    </ul>
+                </div>
+                <div class="cardexp">
+                    <h2>Diseño web</h2>
+                    <h3 class="textoalaizquierda"> 2019-2023 </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li> <img src="/imagenes/cardexp/tecno_au.png" alt=""  height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_cu.png" alt="" height="30px"></li>
+                       <li><img src="/imagenes/cardexp/tecno_html.png" alt="" height="30'x"></li>
+
+                    </ul>
+                </div>
+            </div>
+               
+            
+                
+            </section>
+            <!-- Bloque contacto  -->
+            <section class="contactar">
+                    <h2>Contacto</h2>
+                    <h3>Enviame tus dudas </h3>
+                   <form action="#">
+                        <div class="itemform"> 
+                            <label for="nombre"> Nombre </label>
+                            <input type="text" id="nombre"  name="nombre"   minlength="2" maxlength="64" size="32" required>
+                        </div>
+
+
+                        <div class="itemform">
+                            <label for="empresa"> Empresa</label>
+                            <input type="text" id="empresa" name="empresa" minlength="2" maxlength="128" size="32">
+                        </div>
+
+                        <div class="itemform">
+                            <label for="email"> Email </label>
+                            <input type="email" id="email" name="email" minlength="10" maxlength="64" size="32" required>
+
+                        </div>
+
+                        <div class="itemform">
+                            <label for="mensaje"> Mensaje </label>
+                            <textarea name="mensaje" id="mensaje" cols="33" rows="5"></textarea>
+
+                        </div>
+
+
+
+                   
+                        <!-- Boton  -->
+                        <div class="itemform">  
+                            <input type="submit" name="boton" value="Contactar">
+                        </div>
+                    </form>
+    </article>
+        <!-- footer -->
+        <footer>
+            <ul>
+                <li class="logo"><a href="#inicio"><img src="./imagenes/cascos.png" alt=""></a></li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+        </footer>
     </body>
 
 </html>
